@@ -8,7 +8,7 @@ require('chai')
 .use(require('chai-as-promised'))
 .should()
 
-contract('KryptoBird', (accounts) => {
+contract('OpenMarket', (accounts) => {
     let contract
     // before tells our tests to run this first before anything else 
     before( async () => {
